@@ -1,0 +1,60 @@
+.wrapper {
+  width: 40%;
+  height: 250px;
+  margin: 150px auto;
+  padding: 30px;
+  background-color: rgb(247, 244, 244);
+  border: 1px solid rgb(207, 203, 203);
+  border-radius: 5px;
+}
+
+h1 {
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.bpm-input {
+  width: 80%;
+  height: 80px;
+  margin: 0px auto;
+}
+
+.range-value {
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+}
+
+.button {
+  width: 80%;
+  margin: 30px auto;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #00a2ed;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .button {
+        width: 70%;
+        margin: 0px auto;
+        font-size: 20px;
+    }
+  }
